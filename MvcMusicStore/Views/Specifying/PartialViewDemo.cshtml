@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "PartialViewDemo";
+}
+
+<h2>PartialViewDemo</h2>
+<div id="part"></div>
+
+
+@section scripts{
+    <script type="text/javascript">
+        $(function () {
+            $("#part").load('/Specifying/Message');
+        });
+    </script>
+    }
+
